@@ -21,3 +21,5 @@ sudo apt-get -y install libeigen3-dev
 sudo apt-get -y install libglew1.6-dev
 # GTK development libraries (to allow creating graphical windows)
 sudo apt-get -y install libgtk2.0-dev
+# Extra for opencv
+sudo apt-get -y python-dev python-numpy libqt4-dev
