@@ -18,8 +18,25 @@ sudo apt-get -y install libv4l-dev
 # Eigen3 math development libraries
 sudo apt-get -y install libeigen3-dev
 # OpenGL development libraries (to allow creating graphical windows)
-sudo apt-get -y install libglew1.6-dev
+sudo apt-get -y install libglew-dev
 # GTK development libraries (to allow creating graphical windows)
 sudo apt-get -y install libgtk2.0-dev
-# Extra for opencv
-sudo apt-get -y python-dev python-numpy libqt4-dev
+
+sudo apt-get -y install libqt4-dev python-dev python-numpy python-py python-pytest
+
+sudo apt-get install \
+    libglew-dev \
+    libtiff5-dev \
+    zlib1g-dev \
+    libjpeg-dev \
+    libpng12-dev \
+    libjasper-dev \
+    libavcodec-dev \
+    libavformat-dev \
+    libavutil-dev \
+    libpostproc-dev \
+    libswscale-dev \
+    libeigen3-dev \
+    libtbb-dev \
+    libgtk2.0-dev \
+    pkg-config
