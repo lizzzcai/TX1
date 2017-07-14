@@ -1,7 +1,7 @@
-# buildOpenCVTX1
+# build OpenCV for TX1
 Build and install OpenCV for the NVIDIA Jetson TX1
 
-These scripts build OpenCV version 3.1 for the Jetson TX1.
+These scripts build OpenCV version 3.1 and 3.2 for the Jetson TX1.
 
 JetPack gives the option of installing OpenCV4Tegra (OpenCV 2.4) with accelerated CPU functions. There are several common packages that have issue with this installation, so here's a recipe for building a OpenCV from source.
 
@@ -23,7 +23,9 @@ After this, you can install the new build:
 
 $ cd $HOME/opencv/build
 
-$ sudo make install
+$ sudo make -j4
+
+$sudo make install
 
 Notes:
 There are issues if have both OpenCV4Tegra and a regular OpenCV build installed at the same time. Most people do not install OpenCV4Tegra on their machine if using the OpenCV build.
