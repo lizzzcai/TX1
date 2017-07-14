@@ -6,7 +6,7 @@ sudo apt-get update -y
 
 #remove libreoffice
 sudo apt-get purge libreoffice* -y
-sudo apt autoremove -y
+#sudo apt autoremove -y
 
 #OpenCV build dependencies
 # Some general development libraries
