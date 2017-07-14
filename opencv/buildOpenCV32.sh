@@ -79,7 +79,9 @@ cmake \
 
 
 # Consider using all 4 cores; $ sudo nvpmodel -m 2 or $ sudo nvpmodel -m 0
-sudo make -j4 install
+sudo make -j4 
+# make test
+sudo make install
 echo "# Use OpenCV and other custom-built libraries." >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/" >> ~/.bashrc
 source ~/.bashrc
