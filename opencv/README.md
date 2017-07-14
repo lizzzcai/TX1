@@ -3,7 +3,7 @@ Build and install OpenCV for the NVIDIA Jetson TX1
 
 These scripts build OpenCV version 3.1 and 3.2 for the Jetson TX1.
 
-Both have been tested in JetPack 3.0 - 14/07/2017
+Both have been tested in JetPack 3.0 - 14/07/2017.
 JetPack gives the option of installing OpenCV4Tegra (OpenCV 2.4) with accelerated CPU functions. There are several common packages that have issue with this installation, so here's a recipe for building a OpenCV from source.
 
 OpenCV is a rich environment which can be configured in many different ways. You should configure OpenCV for your needs, by modifying the build file "buildOpenCV.sh". Note that selecting different options in OpenCV may also have additional library requirements which are not included in these scripts.
