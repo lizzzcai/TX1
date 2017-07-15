@@ -34,7 +34,7 @@ Tested on L4T 24.2.1 (Linux for Tegra r24.2.1), 15/07/2017
 
 The script is based on the Ubuntu ARM install of ROS Kinetic: http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+Setup your CatkinWorkspace: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
 
 
 Maintainer of ARM builds for ROS is http://answers.ros.org/users/1034/ahendrix/
